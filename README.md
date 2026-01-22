@@ -1,30 +1,66 @@
 # AI Email Summarizer 🤖📧
 
-This project demonstrates an AI-powered automation that:
-- Reads incoming emails
-- Summarizes the content into 3 concise bullet points
-- Stores results automatically in Google Sheets
+This project demonstrates an AI-powered automation that automatically processes incoming emails and generates concise summaries.
+
+---
+
+## ✨ What This Automation Does
+
+- Reads incoming emails from Gmail
+- Summarizes the email content into **3 concise bullet points**
+- Stores the summarized output automatically in **Google Sheets**
+
+---
 
 ## 🧠 Tech Stack
-- Make.com (Automation)
-- OpenAI (LLM)
-- Gmail (Trigger)
-- Google Sheets (Storage)
 
-## 🔁 Workflow
-1. Gmail watches incoming emails
-2. Email body is sent to OpenAI
-3. OpenAI returns a 3-point summary
-4. Google Sheets formulas split and store summaries
+- Make.com – Automation platform  
+- OpenAI – Large Language Model (LLM)  
+- Gmail – Email trigger  
+- Google Sheets – Data storage  
 
-## ✨ Key Learning
-- API-based AI integration
-- Prompt engineering for automation
-- Structured outputs for workflows
-- No-code + AI design pattern
+---
 
-## ⚠️ Security Note
-API keys are never stored in this repository.
+## 🔁 Workflow Overview
 
-## 📸 Screenshots
-See `/screenshots` folder.
+### Make.com Scenario
+![Make.com Scenario](screenshots/makeSS.png)
+
+---
+
+
+## 📂 Repository Contents
+
+- `Integration Google Sheets.blueprint.json`  
+  Exported Make.com scenario blueprint
+
+- `/screenshots`  
+  Workflow screenshots
+
+- `README.md`  
+  Project documentation
+
+> This repository intentionally contains only essential files.
+
+---
+
+## 🔐 Security Notes
+
+- No API keys are stored in this repository  
+- No personal or sensitive data is included  
+
+---
+
+## 🎯 Key Learnings
+
+- AI integration using APIs  
+- Prompt engineering for automation  
+- Structuring AI output for workflows  
+- No-code + AI system design  
+
+---
+
+## 📌 Status
+
+✅ Completed  
+Portfolio-ready AI automation project.
